@@ -1,23 +1,16 @@
 import React from 'react';
+import { Component } from 'react';
 import { Text, View } from 'react-native';
 
-class AlbumList extends Component{
+class AlbumList extends Component {
 
-    componentWillMount(){
-        console.log('component was mounted');
-    }
-    
     render() {
-        <View>
-            <Text>Album List</Text>
-        </View>
+        return (
+            <View>
+                <Text>Album List</Text>
+            </View>
+        );
     };
-};
-
-const styles = StyleSheet.create({
-    textStyles : {
-        fontSize: 60
-    }
-});
+}
 
 export default AlbumList;
