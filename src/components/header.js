@@ -13,7 +13,6 @@ const Header = (props) => {
 
 const styles = {
     textStyle: {
-        fontSize: 60
     },
     viewStyle: {
         backgroundColor: '#aee7fc',
