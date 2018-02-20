@@ -22,7 +22,7 @@ class AlbumList extends Component {
     render() {
         return (
             <View>
-                <Text>Album List</Text>
+                {this.renderAlbums()}
             </View>
         );
     };
