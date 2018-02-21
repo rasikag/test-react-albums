@@ -6,7 +6,7 @@ class Header extends Component {
     render() {
         return (
             <View>
-                <Text>Albums</Text>
+                <Text>{this.props.header}</Text>
             </View>
         );
     }
